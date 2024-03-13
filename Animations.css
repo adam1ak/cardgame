@@ -1,0 +1,70 @@
+@keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+@keyframes box {
+    0% {
+      box-shadow: #27272c;
+    }
+    50% {
+      box-shadow: 0 0 25px #3C3C50;
+    }
+    100% {
+      box-shadow: #27272c;
+    }
+  }
+@keyframes color-animation {
+    0% {
+      color: rgb(253, 224, 71);
+      border-color: rgb(253, 224, 71);
+    }
+    25% {
+      color: rgb(192, 38, 211);
+      border-color: rgb(192, 38, 211);
+    }
+    50% {
+      color: rgba(254, 102, 0, 1);
+      border-color: rgba(254, 102, 0, 1);
+    }
+    75% {
+      color: rgb(20, 184, 166);
+      border-color: rgb(20, 184, 166);
+    }
+    100% {
+      color: rgb(253, 224, 71);
+      border-color:  rgb(253, 224, 71);
+    }
+  }
+
+
+@keyframes shadow-animation {
+    0% {
+      box-shadow: 0 0 10px 10px rgb(253, 224, 71);
+      border-color: rgb(253, 224, 71);
+    }
+    25% {
+      box-shadow: 0 0 10px 10px rgb(192, 38, 211);
+      border-color: rgb(192, 38, 211);
+    }
+    50% {
+      box-shadow: 0 0 10px 10px rgba(254, 102, 0, 1);
+      border-color: rgba(254, 102, 0, 1);
+    }
+    75% {
+      box-shadow: 0 0 10px 10px rgb(20, 184, 166);
+      border-color: rgb(20, 184, 166);
+    }
+    100% {
+      box-shadow: 0 0 10px 10px rgb(253, 224, 71);
+      border-color:  rgb(253, 224, 71);
+    }
+  }

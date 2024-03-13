@@ -1,0 +1,95 @@
+.card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 4.25rem;
+    background-color: #362a2a; 
+    border: 5px solid;
+    border-bottom: none;
+    border-radius: 16px 16px 0 0;
+    transition: all 0.5s ease-in-out;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .card h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .card li{
+    list-style: none;
+    font-size: 1.3rem;
+  }
+  .card p{
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .card:hover{
+    height: 25rem;
+  }
+  .card:not(:hover){
+    height: 23rem;
+  }
+  
+  
+  .card.Common{
+    border-color: rgb(128, 134, 133);
+  }
+  .card.Common li{
+    color: rgb(128, 134, 133);
+    font-weight: 400;
+  }
+  .card.Common:hover{
+    box-shadow: 0 0 10px 10px rgb(128, 134, 133);
+  }
+  
+  .card.Rare{
+    border-color: rgba(254, 102, 0, 1);
+  }
+  .card.Rare li{
+        color: rgba(254, 102, 0, 1);
+        font-weight: 500;
+    }
+  .card.Rare:hover{
+    box-shadow: 0 0 10px 10px rgba(254, 102, 0, 1);
+  }
+  
+  .card.Epic{
+    border-color: rgb(192, 38, 211);
+  }
+  .card.Epic:hover{
+    box-shadow: 0 0 10px 10px rgb(192, 38, 211);
+  }
+  .card.Epic li{
+    color: rgb(192, 38, 211);
+    font-weight: 600;
+  }
+
+  .card.Legendary{
+    animation: color-animation 5s infinite normal;
+  }
+  .card.Legendary li{
+    font-weight: 700;
+  }
+  .card.Legendary h2, p{
+    color: #f4f4f4;
+  }
+  .card.Legendary:hover{
+    animation: shadow-animation 5s infinite normal;
+  }
+
+  .card.Champion{
+    border-color: rgb(253, 224, 71);
+  }
+  .card.Champion:hover{
+    box-shadow: 0 0 10px 10px rgb(253, 224, 71);
+  }
+    .card.Champion li{
+        color: rgb(253, 224, 71);
+        font-weight: 900;
+    }

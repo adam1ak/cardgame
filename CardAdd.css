@@ -1,0 +1,68 @@
+.add-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222; /* darker background for the whole card */
+  }
+  
+  .add-card h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+  .add-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.15);
+    background-color: #333; /* darker background for the inputs */
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .add-inputs:hover {
+    box-shadow: 0px 0px 15px 5px rgba(255,255,255,0.15);
+  }
+  
+  .add-inputs input, .add-inputs select {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .add-inputs input:focus, .add-inputs select:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.2);
+  }
+  
+  .add-inputs button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .add-inputs button:hover {
+    background-color: #303f9f;
+  }
+  
+  .add-inputs button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
